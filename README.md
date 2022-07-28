@@ -30,6 +30,6 @@ Optional: Name of a subfolder to exclude.
 uses: DirtDiglett/actions-twigcs@v1
 with:
   dir: ./src/views
-  severity_tolerance: notice
+  severity_tolerance: error
   ignore_folder: vendor
 ```
